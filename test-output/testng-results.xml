@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12196" started-at="2020-09-04T09:33:58Z" finished-at="2020-09-04T09:34:10Z">
+    <groups>
+    </groups>
+    <test name="HomeTest" duration-ms="3628" started-at="2020-09-04T09:33:58Z" finished-at="2020-09-04T09:34:02Z">
+      <class name="com.Zoopla.Home.Home">
+        <test-method status="PASS" signature="acceptCookie()[pri:0, instance:com.Zoopla.Home.Home@548e7350]" name="acceptCookie" is-config="true" duration-ms="191" started-at="2020-09-04T09:33:58Z" finished-at="2020-09-04T09:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptCookie -->
+        <test-method status="PASS" signature="enterLocation()[pri:0, instance:com.Zoopla.Home.Home@548e7350]" name="enterLocation" duration-ms="3400" started-at="2020-09-04T09:33:58Z" finished-at="2020-09-04T09:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLocation -->
+      </class> <!-- com.Zoopla.Home.Home -->
+    </test> <!-- HomeTest -->
+    <test name="LondonTest" duration-ms="3245" started-at="2020-09-04T09:34:02Z" finished-at="2020-09-04T09:34:05Z">
+      <class name="com.Zoopla.London.London">
+        <test-method status="PASS" signature="validateHeader()[pri:1, instance:com.Zoopla.London.London@490ab905]" name="validateHeader" duration-ms="128" started-at="2020-09-04T09:34:02Z" finished-at="2020-09-04T09:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="displayList()[pri:2, instance:com.Zoopla.London.London@490ab905]" name="displayList" duration-ms="3113" started-at="2020-09-04T09:34:02Z" finished-at="2020-09-04T09:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayList -->
+      </class> <!-- com.Zoopla.London.London -->
+    </test> <!-- LondonTest -->
+    <test name="PropertyTest" duration-ms="5017" started-at="2020-09-04T09:34:05Z" finished-at="2020-09-04T09:34:10Z">
+      <class name="com.Zoopla.Property.Property">
+        <test-method status="PASS" signature="validateProperty()[pri:5, instance:com.Zoopla.Property.Property@cb644e]" name="validateProperty" duration-ms="5005" started-at="2020-09-04T09:34:05Z" finished-at="2020-09-04T09:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProperty -->
+      </class> <!-- com.Zoopla.Property.Property -->
+    </test> <!-- PropertyTest -->
+    <test name="AgentTest" duration-ms="146" started-at="2020-09-04T09:34:10Z" finished-at="2020-09-04T09:34:10Z">
+      <class name="com.Zoopla.Agent.Agent">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.Zoopla.Agent.Agent@69ea3742]" name="initDriver" is-config="true" duration-ms="9602" started-at="2020-09-04T09:33:49Z" finished-at="2020-09-04T09:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="validateAgent()[pri:10, instance:com.Zoopla.Agent.Agent@69ea3742]" name="validateAgent" duration-ms="138" started-at="2020-09-04T09:34:10Z" finished-at="2020-09-04T09:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAgent -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.Zoopla.Agent.Agent@69ea3742]" name="closeDriver" is-config="true" duration-ms="0" started-at="2020-09-04T09:34:10Z" finished-at="2020-09-04T09:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.Zoopla.Agent.Agent -->
+    </test> <!-- AgentTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="HomeTest">
+    <classes>
+    
+      <class name="com.Zoopla.Home.Home"/>
+      
+    </classes>
+    </test>
+     <test thread-count="5" name="LondonTest">
+    <classes>
+      
+      <class name="com.Zoopla.London.London"/>
+     
+    </classes>
+    </test>
+     <test thread-count="5" name="PropertyTest">
+    <classes>
+     
+      <class name="com.Zoopla.Property.Property"/>
+    </classes>
+    </test>
+     <test thread-count="5" name="AgentTest">
+    <classes>
+      <class name="com.Zoopla.Agent.Agent"/>
+    
+    </classes>
+    </test>
+     
+</suite> <!-- Suite -->
